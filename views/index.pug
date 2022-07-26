@@ -1,0 +1,60 @@
+doctype html 
+html
+    head 
+        style 
+            include ../static/style.css 
+    body 
+        nav#navbar 
+            ul
+                div#logo 
+                    img(src="/static/img/logo.jpg")
+                    | HDA 
+                li #[a(href="/") About ]
+                li #[a(href="/") Home ]
+                li #[a(href="/") Services] 
+                li #[a(href="/") Class info ]
+                li #[a(href="/") Contacts ]
+
+        section#introSection 
+            div Welcome to khush dance academy 
+            div.small Eat Sleep Dance Repeat
+        section#missionSection 
+            h2 Our Mission
+            div.card 
+                h3 Dance perfection
+                div.card-box 
+                    div.card-img 
+                        img(src="/static/img/1.jpg")
+
+                    div.card-content 
+                        p This is the best dance academy of universe     
+            div.card 
+                h3 Dance the way you like
+                div.card-box 
+                    div.card-img 
+                        img(src="/static/img/2.png")
+
+                    div.card-content 
+                        p This is the best dance academy of universe  
+            div.card 
+                h3 Expert teaching 
+                div.card-box 
+                    div.card-img 
+                        img(src="/static/img/1.jpg")
+
+                    div.card-content 
+                        p This is the best dance academy of universe            
+        section#sponserSection 
+            h2 Our Sponsors
+            div#sponsors 
+                img(src="/static/img/apple.png" alt="sponser-img" class="spImage")
+                img(src="/static/img/ms.png" alt="sponser-img" class="spImage")
+                img(src="/static/img/skype.png" alt="sponser-img" class="spImage")
+                img(src="/static/img/hp.png" alt="sponser-img" class="spImage")
+
+
+        footer#footer 
+            |Copyright © 2019 KhushDanceAcademy.com | All rights reserved.
+
+script 
+    include ../static/index.js
